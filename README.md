@@ -1,5 +1,3 @@
-## 项目停更新！ 已放弃CATALINA 转为使用BIGSUR
-
 ## 简介
 
 - Lenovo ThinkPad T480s Hackintosh EFI ，基于OC包含基础驱动，修改三码后开箱即用。
