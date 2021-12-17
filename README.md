@@ -55,6 +55,7 @@ Lenovo ThinkPad T480s
 - one-key-hidpi : 一键开启 macOS HiDPI
 - ThinkpadAssistant : 开启THINKPAD驱动FN多功能键位
 - YogaSMCNC : 可以控制风扇速度 是自动或者自定义转速
+- Hackintool : 打开后 选择电源选项卡 点击修复按钮 （重要，一定要操作 超长时间待机防止写入硬盘 不然无法唤醒）
 
 ## 如何升级你的BIGSUR？
 
