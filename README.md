@@ -1,7 +1,9 @@
+## 支持Monterey  support Monterey  支持Bigsur  support Bigsur
+
 ## 简介
 
 - Lenovo ThinkPad T480s Hackintosh EFI ，基于OC包含基础驱动，修改三码后开箱即用。
-- 适用版本：macOS Bigsur  
+- 适用版本：macOS Bigsur  , macOS Monterey
 - 带OC引导界面主题   支持WIN10 BIGSUR双系统
 - SIP正常 开启状态
 
@@ -57,13 +59,18 @@ Lenovo ThinkPad T480s
 - YogaSMCNC : 可以控制风扇速度 是自动或者自定义转速
 - Hackintool : 打开后 选择电源选项卡 点击修复按钮 （重要，一定要操作 超长时间待机防止写入硬盘 不然无法唤醒）
 
-## 升级注意事项
+## 不同系统版本系统指南
 
-- 本EFI版本 不支持非BIGSUR的更新 此EFI仅完美支持BIGSUR版本！
+Bigsur系统的 使用发布版本BIGSUR https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/bigsur
+Monterey系统的 使用发布版本Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Monterey
+
+- 支持Bigsur升级至Monterey OTA升级流程
+
+1.打开换EFI分区，替换EFI版本至MONTEREY版本。 注意！换后不需要重启系统！
+2.APP STORT中搜素 MACOS MONTEREY 下载并安装即可。
 
 ## 致谢
 
 - MSzturc/ThinkpadAssistant https://github.com/MSzturc/ThinkpadAssistant
 - daliansky/OC-little https://github.com/daliansky/OC-little
-- kekkokk https://github.com/kekkokk/t480s_hackintosh_opencore
 - GITHUB中黑苹果的所有爱好者们
