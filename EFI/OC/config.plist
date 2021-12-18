@@ -1381,24 +1381,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AppleBacklightSmoother.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleBacklightSmoother</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -2076,9 +2058,7 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>ExFatDxe.efi</string>
 			<string>HfsPlus.efi</string>
-			<string>TbtForcePower.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>AudioDxe.efi</string>
 			<string>OpenCanopy.efi</string>
