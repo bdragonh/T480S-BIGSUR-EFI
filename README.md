@@ -60,10 +60,10 @@ Lenovo ThinkPad T480s
 
 ## 不同系统版本系统指南
 
-Bigsur系统的 使用发布版本BIGSUR https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/bigsur
-Monterey系统的 使用发布版本Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Monterey
+- Bigsur系统的 使用发布版本BIGSUR https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/bigsur
+- Monterey系统的 使用发布版本Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Monterey
 
-- 支持Bigsur升级至Monterey OTA升级流程
+## 支持Bigsur升级至Monterey OTA升级流程
 
 1.打开换EFI分区，替换EFI版本至MONTEREY版本。 注意！换后不需要重启系统！
 2.APP STORT中搜素 MACOS MONTEREY 下载并安装即可。
