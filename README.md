@@ -59,14 +59,19 @@ Lenovo ThinkPad T480s
 
 ## 如何升级你的BIGSUR？
 
-- 本EFI禁用了 BIGSUR操作系统的自动升级 （但不影响其它APP的升级） 目的是为了防止升级后因EFI版本过旧
-导致系统无法启动等其它问题。  可以去下载全量系统包来升级系统。
+- 本EFI禁用了BIGSUR的OTA升级 因为有可能失误升级到Monterey后因EFI版本仅完美支持BIGSUR而
+ 导致系统无法启动等其它问题。 
+ 
+ 升级教程如下：
 
 1.打开 https://mrmacintosh.com/macos-big-sur-full-installer-database-download-directly-from-apple/
 2.找到macOS Big Sur 11 Final Full Installer Download 
-3.下载最新版本的 InstallAssistant.pkg 来手动升级BIGSUR系统  
+3.下载最新版本的 InstallAssistant.pkg 
+4.安装 InstallAssistant.pkg
+5.在启动台安装bigsur
+6.BIGSUR安装完后删除启动台中的BIGSUR安装
 
-友情提示 ： 不要在本EFI版本下升级非BIGSUR的更新 
+友情提示 ： 不要在本EFI版本下升级非BIGSUR的更新 此EFI仅完美支持BIGSUR版本
 
 ## 致谢
 
