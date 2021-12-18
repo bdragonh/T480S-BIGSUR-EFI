@@ -57,21 +57,9 @@ Lenovo ThinkPad T480s
 - YogaSMCNC : 可以控制风扇速度 是自动或者自定义转速
 - Hackintool : 打开后 选择电源选项卡 点击修复按钮 （重要，一定要操作 超长时间待机防止写入硬盘 不然无法唤醒）
 
-## 如何升级你的BIGSUR？
+## 升级注意事项
 
-- 本EFI禁用了BIGSUR的OTA升级 因为有可能失误升级到Monterey后因EFI版本仅完美支持BIGSUR而
- 导致系统无法启动等其它问题。 
- 
- 升级教程如下：
-
-1.打开 https://mrmacintosh.com/macos-big-sur-full-installer-database-download-directly-from-apple/
-2.找到macOS Big Sur 11 Final Full Installer Download 
-3.下载最新版本的 InstallAssistant.pkg 
-4.安装 InstallAssistant.pkg
-5.在启动台安装bigsur
-6.BIGSUR安装完后删除启动台中的BIGSUR安装
-
-友情提示 ： 不要在本EFI版本下升级非BIGSUR的更新 此EFI仅完美支持BIGSUR版本
+- 本EFI版本 不支持非BIGSUR的更新 此EFI仅完美支持BIGSUR版本！
 
 ## 致谢
 
