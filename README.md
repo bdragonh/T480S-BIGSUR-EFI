@@ -4,18 +4,17 @@
 
 - Lenovo ThinkPad T480s Hackintosh EFI ，基于OC包含基础驱动，修改三码后开箱即用。
 - 适用版本：macOS Bigsur  , macOS Monterey
-- 带OC引导界面主题   支持WIN10 BIGSUR双系统
+- 带OC引导界面主题   支持WIN10 MACOS双系统安全 （但不建议 最好使用PD虚拟机）
 - SIP正常 开启状态
 
-## 前提
+## 最优越体验方案
 
 1. 更换硬盘为 Samsung SSD 970 EVO 1TB：
 2. 更换网卡为 Fenvi BCM94352Z
 3. 更换显示器 2.5K杜比屏 分辨率2560*1440 色彩位数8BIT(原装屏幕只是1080p 6bit会有严重的色带问题)
 
-## 硬件说明
 
-### 硬件配置
+### EFI自测试硬件配置
 
 Lenovo ThinkPad T480s
 
@@ -68,6 +67,7 @@ Monterey系统的 使用发布版本Monterey https://github.com/bdragonh/T480S-B
 
 1.打开换EFI分区，替换EFI版本至MONTEREY版本。 注意！换后不需要重启系统！
 2.APP STORT中搜素 MACOS MONTEREY 下载并安装即可。
+（注意：建议升级至MONTEREY 我只有一台黑苹果，已升级至MONTEREY ,BIGSUR版本不在维护！）
 
 ## 致谢
 
