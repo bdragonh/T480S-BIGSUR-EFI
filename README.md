@@ -52,7 +52,6 @@ Lenovo ThinkPad T480s
 
 - 复制EFI到EFI分区 编辑EFI/OC/config.plist 修改SystemSerialNumber、SystemUUID、MLB三码
 - 改快捷键设置  【将屏幕图片存储成文件】 改为 PrtSc 备注：看到快捷提示为F13即可 
-- 修复系统睡眠蓝牙自动关闭 https://blog.cotes.info/posts/turn-off-bluetooth-when-macbook-sleeps/
 
 ## 必装工具 
 
@@ -60,8 +59,6 @@ Lenovo ThinkPad T480s
 - ThinkpadAssistant : 开启THINKPAD驱动FN多功能键位
 - YogaSMCNC : 可以控制风扇速度 是自动或者自定义转速
 - Hackintool : 打开后 选择电源选项卡 点击修复按钮 （重要，一定要操作 超长时间待机防止写入硬盘 不然无法唤醒）
-- brew install blueutil 
-- brew install sleepwatcher
  
 ## 不同系统版本系统指南
 
