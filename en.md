@@ -5,13 +5,13 @@
 -Lenovo ThinkPad T480s Hackintosh EFI, based on OC, contains the basic driver, after modifying the three codes, it can be used out of the box.
 -Applicable version: macOS Bigsur, macOS Monterey
 -With OC boot interface theme, support WIN10 MACOS dual system security (but it is not recommended to use PD virtual machine)
--SIP is normally open
+-SIP is normally open/Users/baotailang/T480S-BIGSUR-EFI/README.md
 
 ## The most superior experience program
 
 1. Replace the hard drive with Samsung SSD 970 EVO 1TB:
 2. Change the network card to Fenvi BCM94352Z
-3. Replace the monitor 2.5K Dolby screen, resolution 2560*1440, color bit 8BIT (the original screen is only 1080p 6bit, there will be serious ribbon problems)
+3. Replace the monitor 2.5K Dolby screen, resolution 256/Users/baotailang/T480S-BIGSUR-EFI/README.md0*1440, color bit 8BIT (the original screen is only 1080p 6bit, there will be serious ribbon problems)
 
 
 ### EFI self-test hardware configuration
@@ -41,7 +41,7 @@ Lenovo ThinkPad T480s
 * [x] Sleep/wake up/shutdown/restart (power LED, lid closing/opening are all in normal state)
 * [x] Personal file safe (after opening, if you can't see the startup item, you can press F3)
 * [x] All USB ports (multiple USBs will not have power supply problems)
-* [x] The fan status is normal (add fan control driver to refuse to heat)
+* [x] The fan status is normal (add fan control drive/Users/baotailang/T480S-BIGSUR-EFI/README.mdr to refuse to heat)
 * [] ~~Start Conversion Assistant~~ (It is recommended to use parallels desktop virtual machine to run WINDOWS)
 * [] ~~ Discrete graphics card mx150~~ (No solution and no solution, only integrated graphics can be used)
 * [] ~~Fingerprint Reader~~ (No solution and no solution, only password input)

@@ -1,3 +1,5 @@
+## [English](https://github.com/bdragonh/T480S-BIGSUR-EFI/blob/master/en.md)
+
 ## 支持Monterey  support Monterey  支持Bigsur  support Bigsur
 
 ## 简介
