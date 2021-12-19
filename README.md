@@ -59,7 +59,8 @@ Lenovo ThinkPad T480s
 - YogaSMCNC : 可以控制风扇速度 是自动或者自定义转速
 - Hackintool : 打开后 选择电源选项卡 点击修复按钮 （重要，一定要操作 超长时间待机防止写入硬盘 不然无法唤醒）
 - brew install blueutil 
-
+- brew install sleepwatcher
+ 
 ## 不同系统版本系统指南
 
 - Bigsur系统的 使用发布版本BIGSUR https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/bigsur
