@@ -50,7 +50,6 @@ Lenovo ThinkPad T480s
 
 - Copy EFI to the EFI partition Edit EFI/OC/config.plist to modify the SystemSerialNumber, SystemUUID, MLB three codes
 - Change the shortcut key setting [Save the screen picture as a file] to PrtSc Note: You can see the shortcut prompt as F13
-- Fix the system sleep Bluetooth automatically turns off https://blog.cotes.info/posts/turn-off-bluetooth-when-macbook-sleeps/
 
 ## Required tools
 
@@ -58,8 +57,6 @@ Lenovo ThinkPad T480s
 - ThinkpadAssistant: Turn on THINKPAD to drive FN multi-function keys
 - YogaSMCNC: Can control the fan speed, whether it is automatic or custom speed
 - Hackintool: After opening, select the power tab and click the repair button (important, be sure to operate for a long time standby to prevent writing to the hard disk, otherwise it will not wake up)
-- brew install blueutil
-- brew install sleepwatcher
  
 ## System Guide for Different System Versions
 
