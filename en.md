@@ -2,10 +2,10 @@
 
 ## Introduction
 
--Lenovo ThinkPad T480s Hackintosh EFI, based on OC, contains the basic driver, after modifying the three codes, it can be used out of the box.
--Applicable version: macOS Bigsur, macOS Monterey
--With OC boot interface theme, support WIN10 MACOS dual system security (but it is not recommended to use PD virtual machine)
--SIP is normally open/Users/baotailang/T480S-BIGSUR-EFI/README.md
+- Lenovo ThinkPad T480s Hackintosh EFI, based on OC, contains the basic driver, after modifying the three codes, it can be used out of the box.
+- Applicable version: macOS Bigsur, macOS Monterey
+- With OC boot interface theme, support WIN10 MACOS dual system security (but it is not recommended to use PD virtual machine)
+- SIP is normally open/Users/baotailang/T480S-BIGSUR-EFI/README.md
 
 ## The most superior experience program
 
@@ -18,11 +18,11 @@
 
 Lenovo ThinkPad T480s
 
--Intel i5-8250U
--24GB RAM (8+16)
--Samsung SSD 970 EVO 1TB
--Fenvi BCM94352Z
--2K 8BIT screen
+- Intel i5-8250U
+- 24GB RAM (8+16)
+- Samsung SSD 970 EVO 1TB
+- Fenvi BCM94352Z
+- 2K 8BIT screen
 
 ### Hardware usage status
 
@@ -48,24 +48,24 @@ Lenovo ThinkPad T480s
 
 ## Instructions
 
--Copy EFI to the EFI partition Edit EFI/OC/config.plist to modify the SystemSerialNumber, SystemUUID, MLB three codes
--Change the shortcut key setting [Save the screen picture as a file] to PrtSc Note: You can see the shortcut prompt as F13
--Fix the system sleep Bluetooth automatically turns off https://blog.cotes.info/posts/turn-off-bluetooth-when-macbook-sleeps/
+- Copy EFI to the EFI partition Edit EFI/OC/config.plist to modify the SystemSerialNumber, SystemUUID, MLB three codes
+- Change the shortcut key setting [Save the screen picture as a file] to PrtSc Note: You can see the shortcut prompt as F13
+- Fix the system sleep Bluetooth automatically turns off https://blog.cotes.info/posts/turn-off-bluetooth-when-macbook-sleeps/
 
 ## Required tools
 
--one-key-hidpi: One-key open macOS HiDPI
--ThinkpadAssistant: Turn on THINKPAD to drive FN multi-function keys
--YogaSMCNC: Can control the fan speed, whether it is automatic or custom speed
--Hackintool: After opening, select the power tab and click the repair button (important, be sure to operate for a long time standby to prevent writing to the hard disk, otherwise it will not wake up)
--brew install blueutil
--brew install sleepwatcher
+- one-key-hidpi: One-key open macOS HiDPI
+- ThinkpadAssistant: Turn on THINKPAD to drive FN multi-function keys
+- YogaSMCNC: Can control the fan speed, whether it is automatic or custom speed
+- Hackintool: After opening, select the power tab and click the repair button (important, be sure to operate for a long time standby to prevent writing to the hard disk, otherwise it will not wake up)
+- brew install blueutil
+- brew install sleepwatcher
  
 ## System Guide for Different System Versions
 
--The Bigsur system uses the release version BIGSUR https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/bigsur
--Monterey system use release version Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Monterey
--Catalina system use release version Catalina https://github.com/bdragonh/T480S-EFI/releases/tag/Catalina
+- The Bigsur system uses the release version BIGSUR https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/bigsur
+- Monterey system use release version Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Monterey
+- Catalina system use release version Catalina https://github.com/bdragonh/T480S-EFI/releases/tag/Catalina
 
 ## Support Bigsur upgrade to Monterey OTA upgrade process
 
@@ -75,6 +75,6 @@ Lenovo ThinkPad T480s
 
 ## Thanks
 
--MSzturc/ThinkpadAssistant https://github.com/MSzturc/ThinkpadAssistant
--daliansky/OC-little https://github.com/daliansky/OC-little
--All lovers of black apples in GITHUB
+- MSzturc/ThinkpadAssistant https://github.com/MSzturc/ThinkpadAssistant
+- daliansky/OC-little https://github.com/daliansky/OC-little
+- All lovers of black apples in GITHUB
