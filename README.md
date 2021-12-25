@@ -69,7 +69,6 @@ Lenovo ThinkPad T480s
 
 - 打开换EFI分区，替换EFI版本至BIGSUR&MONTEREY版本。 注意！换后不需要重启系统！
 - APP STORT中搜素 MACOS MONTEREY 下载并安装即可。
-（注意：建议升级至MONTEREY 我只有一台黑苹果，已升级至MONTEREY ,BIGSUR版本不在维护！）
 
 ## 支持BIGSUR和MONTEREY的全新安装
 - 根据教程获取一个装备好的U盘 https://support.apple.com/zh-cn/HT201372
