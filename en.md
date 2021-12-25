@@ -60,7 +60,7 @@ Lenovo ThinkPad T480s
  
 ## System Guide for Different System Versions
 
-- Bigsur and Monterey uses the release version Bigsur&Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Bigsur_And_Monterey
+- Bigsur and Monterey uses the release version Bigsur&Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Bigsur_And_Monterey_2021_12_25
 - Catalina system use release version Catalina https://github.com/bdragonh/T480S-EFI/releases/tag/Catalina
 
 ## Support Bigsur upgrade to Monterey OTA upgrade process
