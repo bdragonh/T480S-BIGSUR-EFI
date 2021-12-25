@@ -60,13 +60,12 @@ Lenovo ThinkPad T480s
  
 ## System Guide for Different System Versions
 
-- The Bigsur system uses the release version BIGSUR https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/bigsur
-- Monterey system use release version Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Monterey
+- Bigsur and Monterey uses the release version Bigsur&Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Bigsur_And_Monterey
 - Catalina system use release version Catalina https://github.com/bdragonh/T480S-EFI/releases/tag/Catalina
 
 ## Support Bigsur upgrade to Monterey OTA upgrade process
 
-1. Open the EFI partition and replace the EFI version to the MONTEREY version. Notice! No need to restart the system after changing!
+1. Open the EFI partition and replace the EFI version to the Bigsur&Monterey version. Notice! No need to restart the system after changing!
 2. Search MACOS MONTEREY in APP STORT, just download and install it.
 (Note: It is recommended to upgrade to MONTEREY. I only have one black apple, which has been upgraded to MONTEREY. The BIGSUR version is not under maintenance!)
 
