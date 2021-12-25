@@ -68,6 +68,14 @@ Lenovo ThinkPad T480s
 1. Open the EFI partition and replace the EFI version to the Bigsur&Monterey version. Notice! No need to restart the system after changing!
 2. Search MACOS MONTEREY in APP STORT, just download and install it.
 (Note: It is recommended to upgrade to MONTEREY. I only have one black apple, which has been upgraded to MONTEREY. The BIGSUR version is not under maintenance!)
+##Support for new installation of bigsur and Monterey
+1. Obtain an equipped USB flash disk according to the tutorial https://support.apple.com/zh-cn/HT201372
+2. Use the OpenCORE configurator to open the EFI partition of USB flash drive and copy the bigsur & Monterey version of EFI into it
+
+##Known problems
+1. Bigsur is perfect
+2. There is a bug in the interval delivery of Monterey. You can't deliver files to other MacOS PCs, but you can accept files (this bug has been fed back to the developer for repair)
+3. If your t480s uses the original network card. You need to replace the network card or join the driver module of Intel network card and Bluetooth to connect and use Bluetooth normally
 
 ## Thanks
 
