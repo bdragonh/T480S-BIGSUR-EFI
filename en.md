@@ -67,7 +67,6 @@ Lenovo ThinkPad T480s
 
 - Open the EFI partition and replace the EFI version to the Bigsur&Monterey version. Notice! No need to restart the system after changing!
 - Search MACOS MONTEREY in APP STORT, just download and install it.
-(Note: It is recommended to upgrade to MONTEREY. I only have one black apple, which has been upgraded to MONTEREY. The BIGSUR version is not under maintenance!)
 
 ##Support for new installation of bigsur and Monterey
 - Obtain an equipped USB flash disk according to the tutorial https://support.apple.com/zh-cn/HT201372
