@@ -71,6 +71,15 @@ Lenovo ThinkPad T480s
 2.APP STORT中搜素 MACOS MONTEREY 下载并安装即可。
 （注意：建议升级至MONTEREY 我只有一台黑苹果，已升级至MONTEREY ,BIGSUR版本不在维护！）
 
+## 支持BIGSUR和MONTEREY的全新安装
+1.根据教程获取一个装备好的U盘 https://support.apple.com/zh-cn/HT201372
+2.使用OpenCore Configurator打开U盘EFI分区 把Bigsur&Monterey版本的EFI复制进去
+
+## 已知问题
+ 1.BIGSUR下已经完美
+ 2.MONTEREY下隔空投递有一个BUG 你无法投递文件到其它MACOS的PC机上但可以接受文件 （此BUG已经反馈开发者 等待修复中）
+ 3.如果你的T480S使用的原装网卡。你需要更换网卡或者自己加入INTEL网卡与蓝牙的驱动模块才可以正常联网和使用蓝牙
+ 
 ## 致谢
 
 - MSzturc/ThinkpadAssistant https://github.com/MSzturc/ThinkpadAssistant
