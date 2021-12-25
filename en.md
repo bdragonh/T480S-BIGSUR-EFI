@@ -39,7 +39,7 @@ Lenovo ThinkPad T480s
 * [x] little red dot
 * [x] Thunderbolt 3 (No test, it should work well.)
 * [x] Sleep/wake up/shutdown/restart (power LED, lid closing/opening are all in normal state)
-* [x] Personal file safe (after opening, if you can't see the startup item, you can press F3)
+* [x] Personal file safe 
 * [x] All USB ports (multiple USBs will not have power supply problems)
 * [x] The fan status is normal (add fan control drive/Users/baotailang/T480S-BIGSUR-EFI/README.mdr to refuse to heat)
 * [] ~~Start Conversion Assistant~~ (It is recommended to use parallels desktop virtual machine to run WINDOWS)
