@@ -83,4 +83,5 @@ Lenovo ThinkPad T480s
 
 - MSzturc/ThinkpadAssistant https://github.com/MSzturc/ThinkpadAssistant
 - daliansky/OC-little https://github.com/daliansky/OC-little
+- acidanthera https://github.com/acidanthera
 - GITHUB中黑苹果的所有爱好者们
