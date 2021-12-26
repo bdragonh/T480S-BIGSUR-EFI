@@ -30,7 +30,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		YkatHRS9iDxq7ZQ6u4EqOwr3oUk=
+		xEfwUIDLj1mvjlZD9xRZq7OqgL0=
 		</data>
 		<key>Resources/Audio/Codecs.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-101300.nib</key>
 		<data>
-		7ROfFSKZQMDIMyH/i6U1gXuG6VY=
+		1HkzkDG6+pLl36tS0PkvlrPugtw=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-110000.nib</key>
 		<data>
-		oZ20O/0N/1h1eTTNnDXo4vSmSFA=
+		lNEvWaHN33FmIqP20Zlq0CwETbg=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects.nib</key>
 		<data>
-		bTxdn8jf1njWkx2F+nKMln98ksY=
+		jeSjEYXIPzGA7AZqgTjXC4MCxXc=
 		</data>
 		<key>Resources/Clover/config_patches.plist</key>
 		<data>
@@ -875,11 +875,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YkatHRS9iDxq7ZQ6u4EqOwr3oUk=
+			xEfwUIDLj1mvjlZD9xRZq7OqgL0=
 			</data>
 			<key>hash2</key>
 			<data>
-			K1/E9h6Yj1I7++h/elAWYH3pFJIZuBWhkI2JmbYUqZk=
+			WJ0l7WqwqQ89OXJdaTyTmLlwUqAYpgP5O/c6pQliSPU=
 			</data>
 		</dict>
 		<key>Resources/Audio/Codecs.plist</key>
@@ -941,33 +941,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ROfFSKZQMDIMyH/i6U1gXuG6VY=
+			1HkzkDG6+pLl36tS0PkvlrPugtw=
 			</data>
 			<key>hash2</key>
 			<data>
-			4cFeos03M+lyMnfnQjsGvwUJc64KCARGNPyGKJVwJv8=
+			+VmNL9h58PMdPFSCQHuA9lnSqeB4tsbO+KuhbuhlSq8=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-110000.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oZ20O/0N/1h1eTTNnDXo4vSmSFA=
+			lNEvWaHN33FmIqP20Zlq0CwETbg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MYAKMkrikBuDs5eQLLX+M4UWBtF6vsi0z6CBHPM9sIQ=
+			83vsX6vQdU4iz4gVOLb8/KmWPisJwh0ZkBpQzN9ULf0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bTxdn8jf1njWkx2F+nKMln98ksY=
+			jeSjEYXIPzGA7AZqgTjXC4MCxXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			z/BPauYZZSFjsH5B6Q/a90Yhe50NfiiJf3BWXTeo13o=
+			MLhQiMsviNpI/x8kYoo9iuDjX4jYk+6c2Ce/2nyU0lA=
 			</data>
 		</dict>
 		<key>Resources/Clover/config_patches.plist</key>

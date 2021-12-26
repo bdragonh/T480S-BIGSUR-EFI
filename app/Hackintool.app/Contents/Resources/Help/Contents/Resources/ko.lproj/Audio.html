@@ -1,0 +1,30 @@
+<html lang="ko">
+<head>
+<title>Audio Patching</title>
+<meta charset="UTF-8">
+<meta name="KEYWORDS" content="audio">
+<meta name="description" content="Patching Audio.">
+<link rel="stylesheet" href="../css/style.css" media="all" />
+</head>
+<body class="Normal">
+<a class="Heading1" name="Audio">오디오 패치</a>
+<ol>
+	<li>최신 버전의 
+	<a href="https://github.com/acidanthera/Lilu/releases">Lilu</a> + 
+	<a href="https://github.com/acidanthera/AppleALC/releases">AppleALC</a>를 설치합니다.</li>
+	<li>config.plist/Devices/Audio에 Inject=NO를 설정합니다.</li>
+	<li>Clover - DSDT Renames (장치가 있을 경우)<br>
+• AZAL to HDEF<br>
+• HDAS to HDEF</li>
+	<li>Hackintool에서 Audio 탭을 선택합니다.</li>
+	<li>Layout ID 목록에서 하나를 고릅니다.</li>
+	<li>파일 - 내보내기에서 부트로더 config.plist를 선택합니다. (기존 config.plist 파일을 덮어 씀)</li>
+	<li>재시동합니다.</li>
+	<li>오디오가 작동하지 않는다면 4번으로 돌아가서 다른 Layout ID를 설정해 보세요.</li>
+</ol>
+<p>참고: 모든 Layout ID를 시도했고 그래도 문제가 있다면 
+패치 - 고급에서 오디오 기기 ID 교체를 시도해 보세요. 그래도 작동하지 않는다면 
+<a HREF="https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/">
+FakePCIID.kext + FakePCIID_Intel_HDMI_Audio.kext</a>를 설치하세요.</p>
+</body>
+</html>

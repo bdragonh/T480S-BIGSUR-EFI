@@ -1,0 +1,51 @@
+<html lang="ko">
+<head>
+<title>Display EDID Patching</title>
+<meta charset="UTF-8">
+<meta name="KEYWORDS" content="edid, display">
+<meta name="description" content="Patching Display EDID.">
+<link rel="stylesheet" href="../css/style.css" media="all" />
+</head>
+<body class="Normal">
+<a class="Heading1" name="Display">디스플레이 EDID 패치</a>
+<p>EDID 패치로 디스플레이 가산을 적용하고 확대된 해상도(HiDPI)를 추가할 수 있습니다.</p>
+<ol>
+	<li>디스플레이 목록에서 편집할 디스플레이를 선택해 주세요</li>
+	<li>해당하는 EDID가 아무것도 표시하지 않거나 잘못된 해상도를 가진다면 추가 및 변경해야 합니다</li>
+	<li>"추가" 버튼을 클릭하여 HiDPI 해상도를 추가하고 잘못된 값을 변경합니다. "삭제" 버튼으로 선택한 해상도를 삭제할 수 있습니다</li>
+	<li>"내보내기" 버튼을 클릭하여 바탕화면에 해당 결과물을 생성합니다</li>
+</ol>
+<a class="Heading1" name="Display_Installation">설치</a>
+<p>EDID 패치를 설치하기 위해 디스플레이 덮어쓰기 방법과 라이브러리 익스텐션 방법 중 하나를 사용할 수 있습니다.</p>
+<a class="Heading2" name="Display_Overrides">디스플레이 덮어쓰기:</a>
+<ul>
+	<li>DisplayVendorID-x 폴더를 
+	/System/Library/Displays/Contents/Resources/Overrides에 복사합니다 
+	(El Capitan 미만은 /System/Library/Displays/Overrides)</li>
+	<li>Icons.plist 파일을 
+	/System/Library/Displays/Contents/Resources/Overrides에 복사합니다 
+	(El Capitan 미만은 /System/Library/Displays/Overrides)</li>
+</ul>
+<a class="Heading2" name="Display_Library_Extensions">라이브러리 익스텐션:</a>
+<ul>
+	<li>DisplayEDID-x-x.kext를 /Library/Extensions 또는 
+	EFI/CLOVER/kexts/Other에 복사합니다 (구성에 따라 선택)</li>
+</ul>
+<a class="Heading1" name="Display_SIP">시스템 무결성 보호 (SIP)</a>
+<p>상기의 경로에 파일을 복사하기 위해서는 SIP를 비활성화해야 합니다.</p>
+<a class="Heading1" name="Display_Extra_Info">추가 정보</a>
+<p>만약 디스플레이 비율이 16:10이고 HiDPI 해상도를 사용하려면 다음 EDID를 사용할 수 있습니다.</p>
+<ul>
+	<li>iMac Display</li>
+	<li>MacBook Pro Display</li>
+	<li>Cinema HD Display</li>
+	<li>LED Cinema Display</li>
+</ul>
+<p>16:9 비율의 디스플레이이고 HiDPI 해상도를 사용해야 할 경우 다음 EDID를 사용할 수 있습니다.</p>
+<ul>
+	<li>Apple Thunderbolt Display (내장 모니터에는 사용하지 마세요!)</li>
+	<li>iMac Retina Display</li>
+	<li>MacBook Air Display</li>
+</ul>
+</body>
+</html>

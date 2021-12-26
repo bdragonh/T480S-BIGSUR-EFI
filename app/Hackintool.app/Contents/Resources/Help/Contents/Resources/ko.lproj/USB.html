@@ -1,0 +1,113 @@
+<html lang="ko">
+<head>
+<title>USB Port Patching</title>
+<meta charset="UTF-8">
+<meta name="KEYWORDS" content="usb">
+<meta name="description" content="Patching USB.">
+<link rel="stylesheet" href="../css/style.css" media="all" />
+</head>
+<body class="Normal">
+<a class="Heading1" name="USB">USB 포트 패치</a></a>
+<p>macOS 10.14.1부터는 USB 포트 제한 패치가 작동하지 않으므로
+한 번에 모든 포트가 작동하게 구성할 수 없습니다. RehabMan은 
+특정 포트들을 제외하기 위한 부트 플래그를 포함하도록 USBInjectAll.kext를 업데이트했습니다.</p>
+<ol>
+	<li>EFI/CLOVER/kexts/Other에 포트 검색을 위한 
+	<a HREF="https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/">
+	USBInjectAll.kext</a>를 넣습니다</li>
+	<li>USBInjectAll 요구 사항: Clover - DSDT Renames (해당 장치가 있을 경우)<ul>
+		<li>XHCI to XHC</li>
+		<li>XHC1 to XHC</li>
+		<li>EHC1 to EH01</li>
+		<li>EHC2 to EH02</li>
+	</ul>
+	</li>
+	<li>재시동합니다</li>
+	<li>해킨툴을 실행하고 "설치된 켁스트" 탭으로 가서 
+	USBInjectAll이 올바르게 설치됐는지 확인합니다<ul>
+	</ul>
+	</li>
+	<li>"USB" 탭에서 USB 컨트롤러 목록을 확인하세요. 
+	USB 컨트롤러에 따라 추가적인 Kext 설치가 필요할 수 있습니다:<ul>
+		<li>8086:8CB1 또는 OS 버전이 10.11.1 미만이라면 XHCI-9-series.kext</li>
+		<li>8086:8D31, 8086:A2AF, 8086:A36D, 8086:9DED는 XHCI-unsupported.kext</li>
+		<li>8086:1E31, 8086:8C31, 8086:8CB1, 8086:8D31, 8086:9C31, 8086:9CB1는 
+		FakePCIID.kext + FakePCIID_XHCIMux.kext</li>
+	</ul>
+	</li>
+	<li>상기된 kext의 설치가 필요하다면 설치 후 재부팅하고 
+	해킨툴을 실행합니다</li>
+	<li>"USB" 탭을 선택합니다</li>
+	<li>"USB 포트" 목록의 모든 항목을 선택한 뒤 “삭제” 버튼을 누르고 
+	“새로고침” 버튼을 누릅니다</li>
+	<li>-uia_exclude_ss uia_include=HS01,HS02 부트 플래그를 추가한 뒤 재부팅합니다<ul>
+		<li>HS01, HS02 포트에 키보드와 마우스를 연결하세요</li>
+	</ul>
+	</li>
+	<li>해킨툴을 실행하고 "USB" 탭을 선택합니다</li>
+	<li>USB 2.0 장치를 포트마다 꽂고 빼봅니다<ul>
+		<li>인식된 포트는 녹색으로 표기될 것입니다</li>
+		<li>녹색으로 표기되지 않은 모든 포트를 삭제하세요</li>
+	</ul>
+	</li>
+	<li>기존의 -uia_exclude_ss 부트 플래그를 삭제하고 
+	-uia_exclude_hs를 추가한 뒤 재부팅합니다</li>
+	<li>해킨툴을 실행하고 "USB" 탭을 선택합니다<ul>
+		<li>USB 3.0 장치를 포트마다 꽂고 빼봅니다</li>
+		<li>USB-C 장치 또한 포트마다 꽂고 빼봅니다 (위 아래 둘 다 시도)</li>
+		<li>인식된 포트는 녹색으로 표기될 것입니다</li>
+		<li>녹색으로 표기되지 않은 모든 포트를 삭제하세요</li>
+	</ul>
+	</li>
+	<li>목록에서 각각의 포트들이 적절한 커넥터 타입을 가지도록 설정합니다<ul>
+		<li>계속 부착되어야 하는 장치(내장 블루투스 모듈 등)가 있는 USB 포트는 
+		“Internal”로 설정합니다</li>
+		<li>USB 3.0 포트에 연결된 HSxx 포트는 
+		"USB3"으로 설정합니다</li>
+		<li>내장 허브는 보통 PR11 및 PR21 포트에 연결되어 있으니 
+		“Internal”로 설정합니다</li>
+		<li>USB-C:<ul>
+			<li>장치의 위 아래를 바꿔 끼웠을 때 같은 HSxx/SSxx 포트를 사용한다면
+			내장 스위치를 가진 것이니 “TypeC+Sw”로 설정합니다</li>
+			<li>만약 위 아래가 각자 다른 HSxx/SSxx 포트를 가진다면
+			스위치가 없는 것이니 “TypeC”로 설정합니다</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>“내보내기” 버튼을 눌러 바탕화면에 파일을 생성합니다<ul>
+		<li>만약 SSDT-EC.aml 파일이 있다면
+		EFI/CLOVER/ACPI/patched 경로에 넣습니다</li>
+		<li>아래 항목 중 하나를 선택합니다:<ol>
+			<li>USBPorts.kext를 EFI/CLOVER/kexts/Other에 넣습니다</li>
+			<li>SSDT-UIAC.aml와 SSDT-USBX.aml (있을 경우) 파일을
+			EFI/CLOVER/ACPI/patched에 넣습니다</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+	<li>이제 정리하고 불필요한 파일을 삭제합니다<ul>
+		<li>부트 플래그를 제거합니다 (-uia_exclude_ss -uia_exclude_hs
+		uia_include=x)</li>
+		<li>USBInjectAll.kext를 제거합니다 (USBPorts.kext를 사용할 경우)</li>
+	</ul>
+	</li>
+	<li>재부팅합니다</li>
+	<li>해킨툴을 실행하고 "USB" 탭을 선택합니다</li>
+	<li> "USB 포트" 목록의 모든 항목을 선택한 뒤 “삭제” 버튼을 누르고 
+	“새로고침” 버튼을 누릅니다<ul>
+		<li>이제 모든 포트가 제대로 작동하는 것을 확인할 수 있습니다</li>
+		<li>커넥터 타입을 바꿔야 한다면 다시 "내보내기"해야 합니다</li>
+		<li>무언가 실수한 경우 USBPorts.kext를 삭제하고 
+		처음부터 다시 하세요</li>
+	</ul>
+	</li>
+</ol>
+<p>Q. USBPorts.kext가 뭔가요?<br>
+A. USB 포트를 주입하는데 사용되는
+<a HREF="https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html">
+코드리스 kext</a>입니다.</p>
+<p>Q. SSDT-UIAC.aml도 필요한가요?<br>
+A. 아뇨, 이 방법은 해당 코드리스 kext만을 사용합니다.</p>
+</body>
+</html>
