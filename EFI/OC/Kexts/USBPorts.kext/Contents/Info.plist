@@ -52,8 +52,23 @@
 				</data>
 				<key>ports</key>
 				<dict>
+					<key>HS01</key>
+					<dict>
+						<key>Comment</key>
+						<string>左测USB大口</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>HS01</string>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>Comment</key>
+						<string>右侧USB大口</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -63,8 +78,23 @@
 						AgAAAA==
 						</data>
 					</dict>
+					<key>HS04</key>
+					<dict>
+						<key>Comment</key>
+						<string>左侧TYPEC 1号</string>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>name</key>
+						<string>HS04</string>
+						<key>port</key>
+						<data>
+						BAAAAA==
+						</data>
+					</dict>
 					<key>HS07</key>
 					<dict>
+						<key>Comment</key>
+						<string>内置蓝牙</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
@@ -76,6 +106,8 @@
 					</dict>
 					<key>HS08</key>
 					<dict>
+						<key>Comment</key>
+						<string>内置摄像头</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
@@ -87,6 +119,8 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>Comment</key>
+						<string>左侧USB大口</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -98,6 +132,8 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
+						<key>Comment</key>
+						<string>右侧USB大口</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -120,6 +156,8 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
+						<key>Comment</key>
+						<string>左侧TYPEC 1号</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>name</key>
@@ -164,8 +202,23 @@
 				</data>
 				<key>ports</key>
 				<dict>
+					<key>HS01</key>
+					<dict>
+						<key>Comment</key>
+						<string>左侧TYPEC 2号</string>
+						<key>UsbConnector</key>
+						<integer>8</integer>
+						<key>name</key>
+						<string>HS01</string>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
 					<key>SSP1</key>
 					<dict>
+						<key>Comment</key>
+						<string>左侧TYPEC 2 号</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>name</key>
