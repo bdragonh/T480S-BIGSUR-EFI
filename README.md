@@ -95,14 +95,15 @@ Lenovo ThinkPad T480s
    >cat .sleep
     networksetup -setairportpower en0 off
     /usr/local/bin/blueutil --power 0
-    注：第一行为断开WIFI网络 休眠了还是断网安全一些
+    #第一行为断开WIFI网络 休眠了还是断网安全一些
 
    >cat .wakeup
     networksetup -setairportpower en0 on
     /usr/local/bin/blueutil --power 1
     sleep 2
     /usr/local/bin/blueutil --connect 70-26-05-10-f2-3c
-    注：第一行为断开WIFI网络 休眠了还是断网安全一些 —connect下面是你蓝牙设备的MAC地址 需要提前连接过此设备 执行blueutil —recent可以查看你想连接的蓝牙MAC越来越
+    #第一行为断开WIFI网络 休眠了还是断网安全一些 
+    #—connect下面是你蓝牙设备的MAC地址 需要提前连接过此设备 执行blueutil —recent可以查看你想连接的蓝牙MAC越来越
 
   2.重启或开机的时候
    使用mac自带的【自动操作】APP创建一个执行脚本的APP内容如下
@@ -111,7 +112,7 @@ Lenovo ThinkPad T480s
    /usr/local/bin/blueutil --power 1
    sleep 2
    /usr/local/bin/blueutil --connect 70-26-05-10-f2-3c
-   注：—connect下面是你蓝牙设备的MAC地址 需要提前连接过此设备 执行blueutil —recent可以查看你想连接的蓝牙MAC越来越
+   #—connect下面是你蓝牙设备的MAC地址 需要提前连接过此设备 执行blueutil —recent可以查看你想连接的蓝牙MAC越来越
 ```                 
 ## 致谢
 
