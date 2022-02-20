@@ -25,6 +25,9 @@ Lenovo ThinkPad T480s
 - Samsung SSD 970 EVO 1TB
 - Fenvi BCM94352Z
 - 2K 8BIT屏
+ 
+### SMBIOS MacBookPro15,2
+- 支持 Monterey下隔空投屏分共享
 
 ### 硬件使用状态
 
