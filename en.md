@@ -13,6 +13,8 @@
 2. Change the network card to Fenvi BCM94352Z
 3. Replace the monitor 2.5K Dolby screen, resolution 256/Users/baotailang/T480S-BIGSUR-EFI/README.md0*1440, color bit 8BIT (the original screen is only 1080p 6bit, there will be serious ribbon problems)
 
+### SMBIOS MacBookPro15,2
+- Support the new features of Monterey screen branching
 
 ### EFI self-test hardware configuration
 
