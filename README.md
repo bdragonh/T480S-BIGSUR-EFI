@@ -82,8 +82,7 @@ Lenovo ThinkPad T480s
 - MONTEREY下隔空投递有一个BUG 你无法投递文件到其它MACOS的PC机上但可以接受文件 发送和接受来自手机的场景是OK的（此BUG已经反馈开发者 等待修复中）
 - 如果你的T480S使用的原装网卡。你需要更换网卡或者自己加入INTEL网卡与蓝牙的驱动模块才可以正常联网和使用蓝牙
 - 蓝牙重启不会自动连接 休眠唤醒偶尔失灵 下面是解决办法
-  蓝牙自动连接方案
-   1.休眠唤醒的时候
+1.休眠唤醒的时候
    brew install sleepwatcher
    brew install blueutil
    brew services start sleepwatcher
