@@ -81,7 +81,38 @@ Lenovo ThinkPad T480s
 - BIGSUR下已经完美（当然独立显卡和指纹识别就不要期待了）
 - MONTEREY下隔空投递有一个BUG 你无法投递文件到其它MACOS的PC机上但可以接受文件 发送和接受来自手机的场景是OK的（此BUG已经反馈开发者 等待修复中）
 - 如果你的T480S使用的原装网卡。你需要更换网卡或者自己加入INTEL网卡与蓝牙的驱动模块才可以正常联网和使用蓝牙
- 
+- 蓝牙重启不会自动连接 休眠唤醒偶尔失灵 下面是解决办法
+  蓝牙自动连接方案
+   1.休眠唤醒的时候
+   brew install sleepwatcher
+   brew install blueutil
+   brew services start sleepwatcher
+   touch .sleep
+   touch .wakeup
+   chmod 755 .sleep
+   chmod 755 .wakeup
+  之后编辑上面的内容为如下
+   >cat .sleep
+    networksetup -setairportpower en0 off
+    /usr/local/bin/blueutil --power 0
+    注：第一行为断开WIFI网络 休眠了还是断网安全一些
+
+   >cat .wakeup
+    networksetup -setairportpower en0 on
+    /usr/local/bin/blueutil --power 1
+    sleep 2
+    /usr/local/bin/blueutil --connect 70-26-05-10-f2-3c
+    注：第一行为断开WIFI网络 休眠了还是断网安全一些 —connect下面是你蓝牙设备的MAC地址 需要提前连接过此设备 执行blueutil —recent可以查看你想连接的蓝牙MAC越来越
+
+  2.重启或开机的时候
+   使用mac自带的【自动操作】APP创建一个执行脚本的APP内容如下
+   /usr/local/bin/blueutil --power 0
+   sleep 2
+   /usr/local/bin/blueutil --power 1
+   sleep 2
+   /usr/local/bin/blueutil --connect 70-26-05-10-f2-3c
+   注：—connect下面是你蓝牙设备的MAC地址 需要提前连接过此设备 执行blueutil —recent可以查看你想连接的蓝牙MAC越来越
+                 
 ## 致谢
 
 - MSzturc/ThinkpadAssistant https://github.com/MSzturc/ThinkpadAssistant
