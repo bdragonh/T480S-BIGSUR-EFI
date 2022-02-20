@@ -65,7 +65,7 @@ Lenovo ThinkPad T480s
  
 ## 不同系统版本系统指南
 
-- Bigsur和Monterey 使用发布版本Bigsur&Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/tag/Bigsur_And_Monterey_2021_12_25
+- Bigsur和Monterey 使用发布版本Bigsur&Monterey https://github.com/bdragonh/T480S-BIGSUR-EFI/releases/
 - Catalina系统的 使用发布版本Catalina https://github.com/bdragonh/T480S-EFI/releases/tag/Catalina
 
 ## 支持Bigsur升级至Monterey OTA升级流程
