@@ -30,8 +30,8 @@ Lenovo ThinkPad T480s
 
 * [x] Integrated graphics UHD620 3G video memory
 * [x] Wired network
-* [x] Wireless network (airdrop screen, airdrop)
-* [x] Bluetooth
+* [x] Wireless network 
+* [x] Bluetooth (airdrop screen, airdrop by fenvi)
 * [x] Battery status
 * [x] hidpi (1440*810 perfect)
 * [x] Sound
@@ -77,7 +77,7 @@ Lenovo ThinkPad T480s
 ##Known problems
 - Bigsur is perfect
 - There is a bug in the interval delivery of Monterey. You can't deliver files to other MacOS PCs, but you can accept files (this bug has been fed back to the developer for repair)
-- If your t480s uses the original network card. You need to replace the network card or join the driver module of Intel network card and Bluetooth to connect and use Bluetooth normally
+- If your t480s uses the original network card. You can't use [space delivery] and [accompanying]
 
 ## Thanks
 
